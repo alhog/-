@@ -1,0 +1,10 @@
+from flask_security import Security, SQLAlchemyUserDatastore, UserMixin, RoleMixin, login_required
+
+# Setup Flask-Security
+user_datastore = SQLAlchemyUserDatastore(db, User, Role)
+security = Security(app, user_datastore)
+
+@app.route('/users/<id>')
+@login_required
+def get_user(id):
+    # ...
