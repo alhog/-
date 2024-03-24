@@ -1,0 +1,4 @@
+@app.route('/users/<id>')
+@auth.login_required
+def get_user(id):
+    # ...
