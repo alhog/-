@@ -1,0 +1,3 @@
+purchases['bananas'] = [1, 2, 1, 0]
+print(purchases)
+
