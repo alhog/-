@@ -1,0 +1,9 @@
+from cryptography.fernet import Fernet
+
+# Generate a key and instantiate a cipher suite
+key = Fernet.generate_key()
+cipher_suite = Fernet(key)
+
+# Assuming `data` is the information to be encrypted
+data = b"my secret data"
+cipher_text = cipher_suite.encrypt(data)
