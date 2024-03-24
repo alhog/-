@@ -1,0 +1,7 @@
+from flask_limiter import Limiter
+limiter = Limiter(app, key_func=get_remote_address)
+
+@app.route('/users/<id>')
+@limiter.limit("10/minute")  # 10 requests per minute
+def get_user(id):
+    # ...
