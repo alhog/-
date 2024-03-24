@@ -1,0 +1,19 @@
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+# Sample data
+data = {
+    "1": {"name": "John Doe", "email": "john@example.com"},
+    "2": {"name": "Jane Doe", "email": "jane@example.com"}
+}
+
+@app.route('/users/<id>', methods=['GET'])
+def get_user(id):
+    if id in data:
+        return jsonify(data[id])
+    else:
+        return jsonify({"error": "User not found"}), 404
+
+if __name__ == '__main__':
+    app.run(debug=True)
