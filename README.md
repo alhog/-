@@ -18,25 +18,41 @@ This project is dedicated to creating a state-of-the-art data pipeline infrastru
 - **Data Integration:** Seamless management of KPIs/APIs and integration with business processes through API management platforms.
 - **Dynamic Updates:** Continuous deployment and incremental processing capabilities to keep the data pipeline current and efficient.
 
-## Financial Plan
-The financial plan for this project includes detailed estimates for initial setup, development, testing, deployment, and ongoing maintenance. Here's a summary:
+#
+Detailed Roadmap:
+1. Q2 2024: Project Initiation
+    * Establish project charter, define scope, and secure initial funding.
+    * Set up project management and collaboration tools.
+    * Estimated Costs: $50,000 - $70,000
+2. Q3 2024: Infrastructure Design
+    * Design the architecture of the data pipeline.
+    * Select cloud providers and data processing tools.
+    * Estimated Costs: $30,000 - $50,000
+3. Q4 2024 - Q1 2025: Development Phase I
+    * Develop the core components of the data pipeline.
+    * Implement initial data storage and refinement processes.
+    * Estimated Costs: $70,000 - $100,000
+4. Q2 - Q3 2025: Development Phase II
+    * Integrate blockchain technology for data transactions.
+    * Develop data enrichment and integration processes.
+    * Estimated Costs: $80,000 - $120,000
+5. Q4 2025: Testing & Quality Assurance
+    * Conduct thorough testing of the data pipeline.
+    * Perform quality assurance and security audits.
+    * Estimated Costs: $40,000 - $60,000
+6. Q1 2026: Deployment & Training
+    * Deploy the data pipeline infrastructure.
+    * Train staff and stakeholders on the new system.
+    * Estimated Costs: $50,000 - $80,000
+7. Q2 - Q4 2026: Expansion & Scaling
+    * Scale the infrastructure to handle increased data loads.
+    * Optimize performance and add new features.
+    * Estimated Costs: $100,000 - $150,000
+8. 2027 onwards: Maintenance & Iterative Improvement
+    * Provide ongoing maintenance and support.
+    * Continuously improve and update the system.
+    * Estimated Costs: $70,000 - $100,000 annually
 
-- **Initial Setup (Q1 - Q2 2024):** $50,000 - $70,000
-- **Development (Q3 2024 - Q2 2025):** $100,000 - $150,000
-- **Testing & Deployment (Q3 - Q4 2025):** $80,000 - $120,000
-- **Expansion & Scaling (2026):** $150,000 - $200,000
-- **Maintenance & Growth (2027 onwards):** $70,000 - $100,000 annually
-
-One-time costs for setting up the infrastructure range from $66,000 to $140,000, with additional indirect costs of $32,000. Annual recurring costs for operations are estimated between $32,000 and $61,000, plus $47,500 for indirect expenses.
-
-## Roadmap
-Our roadmap outlines the key phases and milestones of the project:
-
-1. **Initial Setup:** Establishing the foundational infrastructure and securing initial resources.
-2. **Development:** Building the core components of the data pipeline and integrating blockchain technology.
-3. **Testing & Deployment:** Rigorous testing of the infrastructure followed by a phased deployment.
-4. **Expansion & Scaling:** Scaling the infrastructure to accommodate growing data needs.
-5. **Maintenance & Growth:** Ongoing maintenance and iterative improvements to support growth.
 
 ## Contributing
 Contributions are welcome! Please review our contributing guidelines and submit pull requests for consideration.
