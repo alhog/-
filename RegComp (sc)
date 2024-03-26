@@ -1,0 +1,14 @@
+contract RegulatoryCompliance {
+    address public contractor;
+    uint public totalContractValue = 10000; // Total contract value for Phase 4
+    mapping(string => bool) public completedIncrements;
+
+    constructor() {
+        contractor = msg.sender;
+    }
+
+    function completeIncrement(string memory incrementName) public {
+        require(msg.sender == contractor, "Only contractor can complete increments.");
+        completedIncrements[incrementName] = true;
+    }
+}
