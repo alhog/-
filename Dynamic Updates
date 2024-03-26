@@ -1,0 +1,7 @@
+contract DynamicUpdates {
+    address public contractor;
+    uint public totalContractValue = 8000; // Total contract value for Phase 6
+    mapping(string => bool) public completedIncrements;
+
+    constructor() {
+        contractor = msg.sender;
